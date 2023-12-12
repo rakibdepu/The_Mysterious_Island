@@ -1,0 +1,127 @@
+/* $Id: jv.css,v 1.99 2008/01/31 08:02:58 rl Exp $*/
+
+/* fonts */
+body, select, input, textarea, .serif {
+    font-family: 'times new roman', times, serif
+}
+tt, code, pre, .monospace {
+    font-family: 'courier new', courier, monospace
+}
+.sans {
+    font-family: arial, helvetica, sans-serif
+}
+.small {
+    font-size: small
+}
+.big {
+    font-size: large
+}
+.cap {
+    font-variant: small-caps
+}
+.huge:first-letter {
+    font-size: 200%;
+    float: left
+}
+
+/* colors */
+body {
+    background: #f5edc9 url(pics/paper4.png);
+    color: black;
+}
+Select, input, textarea, .plain {
+    background: #f5edc9;
+    color: black
+}
+.reverse {
+    background: black;
+    color: #f5edc9
+}
+.red {
+    background: red;
+    color: #f5edc9
+}
+.blue {
+    background: #f5edc9;
+    color: #004ad6
+}
+
+/* links */
+:link { color: #3300ee }
+:visited { color: #990099 }
+a {text-decoration: none }
+a:hover { text-decoration: underline }
+
+/* align, margin, indent, padding */
+body, table, hr {
+    text-align: justify;
+}
+body.mail {
+    text-align: left
+}
+p {
+    text-indent: 2em;
+    margin: 0.3em 0
+}
+.mail p {
+    text-indent: 0;
+    margin: 0.6em 0
+}
+.play p, .hang {
+    text-indent: -2em;
+    margin-left: 2em;
+}
+body {
+    margin: 1em
+}
+blockquote {
+    margin: 1em 2em
+}
+dd, .shift {
+    margin-left: 2em
+}
+ul, ol {
+    padding-left: 2em;
+    padding-right: 0
+}
+[dir=rtl] ul, [dir=rtl] ol {
+    padding-left: 0;
+    padding-right: 2em
+}
+.nomargin {
+    margin : 0
+}
+.loose > dt , .loose > li {
+    margin-top: 0.3em
+}
+.veryloose > dt , .veryloose > li {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em
+}
+.noindent, .huge {
+    text-indent: 0
+}
+.indent {
+    text-indent: 2em
+}
+.hang .indent, .play .indent {
+    margin-left: 2em;
+    text-indent: 2em
+}
+.double {
+    text-indent: 4em
+}
+.triple {
+    text-indent: 6em
+}
+
+/* border */
+table, hr {
+    border-style: outset
+}
+.index > table, .noborder {
+    border-style: none
+}
+.dot {
+    border-style: dotted
+}
