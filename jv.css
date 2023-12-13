@@ -26,7 +26,7 @@ tt, code, pre, .monospace {
 
 /* colors */
 body {
-    background: #f5edc9 url(pics/paper4.png);
+    background: #f5edc9 url(images/paper4.png);
     color: black;
 }
 Select, input, textarea, .plain {
@@ -78,7 +78,7 @@ blockquote {
     margin: 1em 2em
 }
 dd, .shift {
-    margin-left: 2em
+    margin-left: 0em
 }
 ul, ol {
     padding-left: 2em;
@@ -124,4 +124,10 @@ table, hr {
 }
 .dot {
     border-style: dotted
+}
+section {
+    text-align: center
+}
+dt {
+    text-align: center
 }
