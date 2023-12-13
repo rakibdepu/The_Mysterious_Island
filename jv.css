@@ -131,3 +131,68 @@ section {
 dt {
     text-align: center
 }
+header > h2, h3 {
+    text-align: center;
+    margin: 0 0 16px 0;
+  }
+  header > h4 {
+    text-align: justify;
+    margin: 0;
+  }
+  header {
+    display: block;
+    margin: 16px auto;
+    width: 90%;
+    padding: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5rem;
+  }
+  article > p {
+    text-indent: 1em;
+    text-align: justify;
+  }
+  cover > img {
+    border: none !important;
+    border-radius: 0.5rem;
+  }
+  pic {
+    display: block;
+    margin: 16px auto;
+    width: 75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5rem;
+  }
+  pic > img {
+    border: none !important;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  pic > p {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    font-size: 16px;
+    margin: 0;
+  }
+  list > a > h4 {
+    text-align: center;
+    margin: 0 0 16px 0;
+  }
+  list > a > p {
+    text-align: justify;
+    margin: 0;
+  }
+  list {
+    display: block;
+    margin: 16px auto;
+    width: 33%;
+    padding: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5rem;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+  }
