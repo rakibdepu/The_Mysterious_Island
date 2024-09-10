@@ -1,7 +1,7 @@
 /* fonts */
 @font-face {
     font-family: Ubuntu;
-    src: url(fonts/ubuntu.ttf);
+    src: url(Fonts/Ubuntu.ttf);
 }
 body, tt, pre {
     font-family: Ubuntu, sans-serif;
